@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Turbo Boost</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+      <div class="logo">
+        <h1>Turbo Boost</h1>
+      </div>
+      <nav>
+        <ul class="nav-link">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-content animate-fade">
+            <h1>Accelerate Your Drive with our Engines</h1>
+            <p class="p">Unleash the power of high-performance engines, designed to take your ride to the next level with precision and speed.</p>
+            <a href="#products" class="cta-btn">View Collection</a>
+        </div>
+    </section>
+
+    <section id="products" class="products-container">
+        <h3 class="section-tittle">The Collection</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="img-placeholder">
+                    <img src="./IMG-20260103-WA0037.jpg" alt="Toyota Engine" class="img"/>
+                </div>
+                <h3>Mercedes Benz Engines</h3>
+                <a href="" class="cta-btn">Shop Now</a>
+            </div>
+            <div class="product-card">
+                <div class="img-placeholder">
+                    <img src="./IMG-20260103-WA0038.jpg" alt="Modular Parts" class="img"/>
+                </div>
+                <h3>Audi A4 Engines</h3>
+                <a href="" class="cta-btn">Shop Now</a>
+            </div>
+            <div class="product-card">
+                <div class="img-placeholder">
+                    <img src="./IMG-20260103-WA0039.jpg" alt="Cyber Sneakers" class="img"/>
+                </div>
+                <h3>4Matic
+                Benz Engines</h3>
+                <a href="" class="cta-btn">Shop Now</a>
+            </div>
+            
+        </div>
+        
+           
+            
+        </div>
+    </section>
+
+    <section id="contacts" class="contact-section">
+        <h2 class="section-title">Connect With Us</h2>
+        <div class="contact-form-container">
+            <form id="joshuaForm">
+                <input type="text" id="name" placeholder="Your Name" class="input" required>
+                <input type="email" placeholder="Your Email" class="input" required>
+                <textarea placeholder="Your Message" rows="5" class="input"></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            
+            <div id="successMessage" class="hidden animate-fade">
+                <h3>Message Sent, Joshua!</h3>
+                <p>We'll get back to you in the digital void shortly.</p>
+                <button onclick="resetForm()" class="cta-btn">Send Another</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Turbo Boost. All Rights Reserved </p>
+    </footer>
+
+</body>
+</html>
